@@ -1,6 +1,5 @@
 # 몽글(Mongle)
 
-.
 ## 📝 기획의도 
 ![20220822132858](https://user-images.githubusercontent.com/102797869/185839746-4c879cb4-b66d-4272-aca5-30035f1ba660.png)
 <br>
