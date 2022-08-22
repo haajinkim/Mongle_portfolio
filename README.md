@@ -56,9 +56,9 @@
   + 쿼리 최적화  select_related, prefeth_related 적용
   + 빠른 응답 속도를 위해 Redis를 적용하여 캐싱된 데이터를 가져와 속도를 최소화 하였습니다.
   (실행속도 30ms → 0.01ms)
-  https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/main_gage_service.py#L33
+  [코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/main_gage_service.py#L33).
   + 좋아요 기능에 동시성 문제를 해결하기 위해 Transaction을 적용 하였습니다.(Transaction.atomic)
-  https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/letter_service.py#L50
+  [코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/letter_service.py#L50).
   + 비동기 처리를 하기 위해 async, await fetch를 사용하였습니다.
   
 - ### Front 배포
@@ -67,15 +67,15 @@
 - ### 편지 보내기 
   + 쿼리 최적화  select_related, prefeth_related 적용
   + 동시성 문제를 해결하기 위해 Transaction을 적용 하였습니다. (Transaction.atomic)
-  https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/letter_service.py#L16
+  [코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/letter_service.py#L16).
   + 비동기 처리를 하기 위해 async, await fetch를 사용하였습니다.
   + Custom 텍스트 에디터를 구현 하였습니다.
   
 - ### 테스트 코드 작성
   + 서비스의 안정성과 원활한 수정과 변경이 가능하도록 테스트 코드를 작성하였습니다.
   + Service 함수의 대한 검증과 Api Test 에 대한 검증을 나눠서 진행 하였습니다.
-  https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/tests/serviecs/test_main_page.py#L17
-  https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/tests/apitests/test_main_page_api.py#L14
+  [Service Test 코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/tests/serviecs/test_main_page.py#L17).
+  [API TEST 코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/tests/apitests/test_main_page_api.py#L14).
   
 - ### 몽글 튜토리얼 페이지 
   + 고객 피드백 결과 사이트에 가시성 이 떨어진다는 피드백이 많아 사이트의 원활한 이해를 돕기 위한 몽글 튜토리얼 이라는 페이지를 새롭게 제작하였습니다.
