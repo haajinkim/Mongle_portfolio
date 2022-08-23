@@ -1,13 +1,19 @@
 # 몽글(Mongle)
 
+## 📆 제작 기간 & 참여 인원
+
+22/07/07 ~ 22/08/16
++ 김하진, 고현우, 주정한, 최희원 (4인)
+
 ## 📝 기획의도 
 ![20220822132858](https://user-images.githubusercontent.com/102797869/185839746-4c879cb4-b66d-4272-aca5-30035f1ba660.png)
 <br>
 <br>
 
-## 👍 배포사이트
+## 👍 배포사이트 & 시연 영상
 ### www.mongle.site
 (현재 EC2 과금상의 이유로 잠시 닫아둔 상태 입니다)
+### https://www.youtube.com/watch?v=WB4Q_mE30ck&t=117s
 <br>
 <br>
 
@@ -131,6 +137,14 @@
 <br>
 <br>
 
+### ⚠️ 원활한 프로젝트 진행을 위한 팀과의 노력
++ [github](https://github.com/about-joo91/1TA3P_timeattack).
+
++  [6.16 팀원 타임어택 진행](https://www.notion.so/6-21-CRUD_further-20987bcdb6cb4a29ae7d79ed16f96030).
+
++  [6월 20일 타임어택](https://silent-emmental-612.notion.site/6-20-11b2ab4c43c94f32b67a7bbedee78dce).
+
++  [6/21일 CRUD_further](https://silent-emmental-612.notion.site/6-21-CRUD_further-f90a6ac8a0724f7a96f9d17435583834).
 
 
 
