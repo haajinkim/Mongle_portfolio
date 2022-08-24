@@ -59,7 +59,7 @@
 ## 💪 맡은 역할
   
 - ### 메인 페이지
-  + 쿼리 최적화  select_related, prefeth_related 적용
+  + 쿼리 최적화  select_related, prefetch_related 적용
   + 빠른 응답 속도를 위해 Redis를 적용하여 캐싱된 데이터를 가져와 속도를 최소화 하였습니다.
   (실행속도 30ms → 0.01ms)
   [코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/main_gage_service.py#L33).
@@ -71,7 +71,7 @@
   + S3 정적 웹 호스팅, Rout53 , CloudFront, ACM → Https 배포
   
 - ### 편지 보내기 
-  + 쿼리 최적화  select_related, prefeth_related 적용
+  + 쿼리 최적화  select_related, prefetch_related 적용
   + 동시성 문제를 해결하기 위해 Transaction을 적용 하였습니다. (Transaction.atomic)
   [코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/letter_service.py#L16).
   + 비동기 처리를 하기 위해 async, await fetch를 사용하였습니다.
