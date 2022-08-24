@@ -59,6 +59,7 @@
 ## 💪 맡은 역할
   
 - ### 메인 페이지
+`Redis` `Rest-full API` `쿼리 최적화` `DjangoORM` `비동기 처리` `Transaction`
   + 쿼리 최적화  select_related, prefetch_related 적용
   + 빠른 응답 속도를 위해 Redis를 적용하여 캐싱된 데이터를 가져와 속도를 최소화 하였습니다.
   (실행속도 30ms → 0.01ms)
@@ -68,9 +69,11 @@
   + 비동기 처리를 하기 위해 async, await fetch를 사용하였습니다.
   
 - ### Front 배포
+`S3` `가비아` `Route53` `CloudFront` `ACM`
   + S3 정적 웹 호스팅, Rout53 , CloudFront, ACM → Https 배포
   
 - ### 편지 보내기 
+`Rest-full API` `쿼리 최적화` `DjangoORM` `비동기 처리` `Transaction`
   + 쿼리 최적화  select_related, prefetch_related 적용
   + 동시성 문제를 해결하기 위해 Transaction을 적용 하였습니다. (Transaction.atomic)
   [코드보러가기](https://github.com/haajinkim/mailbox_back/blob/7919a8b9c6016fc1b595af97219ca04fe4ec1fdb/main_page/services/letter_service.py#L16).
