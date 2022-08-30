@@ -99,12 +99,3 @@
 +  [6/21일 CRUD_further](https://silent-emmental-612.notion.site/6-21-CRUD_further-f90a6ac8a0724f7a96f9d17435583834).
 
 
-
-## 🤙 컨벤션
-- feat/ : 새로운 기능 추가/수정/삭제
-- enhan/ : 기존 코드에 기능을 추가하거나 기능을 강화할 때
-- refac/ : 코드 리팩토링,버그 수정
-- test/ : 테스트 코드/기능 추가
-- edit/ : 파일을 수정한 경우(파일위치변경, 파일이름 변경, 삭제)
-<br>
-<br>
